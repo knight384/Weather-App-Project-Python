@@ -1,0 +1,41 @@
+═══════════════════════════════════════════════════════════════
+  QUICK GUIDE: Upload Weather App to GitHub
+═══════════════════════════════════════════════════════════════
+
+✅ STEP 1: Create GitHub Repository
+─────────────────────────────────────
+1. Go to https://github.com and login
+2. Click "+" → "New repository"
+3. Name: weather-app (or any name)
+4. Description: Weather app using OpenWeatherMap API
+5. Choose Public or Private
+6. DO NOT check "Initialize with README"
+7. Click "Create repository"
+
+✅ STEP 2: Run These Commands in Terminal
+──────────────────────────────────────────
+Open terminal in Cursor (Ctrl + `) and run:
+
+git commit -m "Initial commit: Weather app with CLI and web interface"
+
+git branch -M main
+
+git remote add origin https://github.com/YOUR_USERNAME/weather-app.git
+   (Replace YOUR_USERNAME with your GitHub username)
+
+git push -u origin main
+
+✅ STEP 3: Done!
+─────────────────
+Go to your GitHub repository page - you should see all files!
+
+═══════════════════════════════════════════════════════════════
+  IMPORTANT NOTES
+═══════════════════════════════════════════════════════════════
+
+✅ Your API key is SAFE - config.json is NOT uploaded
+✅ Users will copy config.json.example and add their own key
+✅ If asked for password, use a Personal Access Token
+
+═══════════════════════════════════════════════════════════════
+

@@ -19,8 +19,8 @@ A weather application with both CLI and Web interface that fetches current weath
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
-cd weather_app
+git clone https://github.com/knight384/Weather-App-Project-Python.git
+cd Weather-App-Project-Python
 ```
 
 2. Install dependencies:
@@ -73,7 +73,7 @@ python main.py -c "Tokyo" --units metric -v
 ## Project Structure
 
 ```
-weather_app/
+Weather-App-Project-Python/
 ├── app.py              # Flask web application
 ├── main.py             # CLI application
 ├── config.json         # API key configuration (not in git)
@@ -90,4 +90,3 @@ weather_app/
 - The app uses the OpenWeatherMap Current Weather Data API
 - Free API keys may have rate limits
 - Keep your `config.json` file private - it contains your API key
-
